@@ -17,11 +17,11 @@ public class ConsoleConnector {
     }
 
     public String updateStatus(char guess, int remaining, String state) {
-            System.out.println("Current state: " + state + " (length = " + state.length() + ")");
-            System.out.println("Show must go on, I still have " + remaining + " tries!");
-            System.out.println("\n     THE NEXT LETTER IS ***  " + guess + " *** \n");
-            System.out.println("Please, enter the current state in the form of a mask of a secret word with open guessed letters");
-            return sc.nextLine();
+        System.out.println("Current state: " + state + " (length = " + state.length() + ")");
+        System.out.println("Show must go on, I still have " + remaining + " tries!");
+        System.out.println("\n     THE NEXT LETTER IS ***  " + guess + " *** \n");
+        System.out.println("Please, enter the current state in the form of a mask of a secret word with open guessed letters");
+        return sc.nextLine();
 
     }
 
